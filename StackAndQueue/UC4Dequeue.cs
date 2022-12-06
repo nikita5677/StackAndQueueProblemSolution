@@ -26,7 +26,6 @@ namespace StackAndQueue
 
             }
             Console.WriteLine("{0} inserted into queue ", node.data);
-
         }
         internal void Display()
         {
