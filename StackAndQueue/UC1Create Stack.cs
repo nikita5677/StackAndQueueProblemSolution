@@ -14,7 +14,6 @@ namespace StackAndQueue
         {
             this.top = null;
         }
-
         //30
         internal void Push(int value)
         {
@@ -36,6 +35,5 @@ namespace StackAndQueue
             }
 
         }
-    }
-    
+    }    
 }
