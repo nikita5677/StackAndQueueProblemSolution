@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace StackAndQueue
 {
-    class CreateQueue
+    class Dequeue
     {
         Node head = null;
         internal void Enqueue(int data)
@@ -23,8 +23,10 @@ namespace StackAndQueue
                 }
                 temp.next = node;
                 //node.next = head;
+
             }
             Console.WriteLine("{0} inserted into queue ", node.data);
+
         }
         internal void Display()
         {
@@ -39,6 +41,19 @@ namespace StackAndQueue
             {
                 Console.Write(temp.data + " ");
                 temp = temp.next;
+            }
+        }
+        internal void Dequeu()
+        {
+            if (head == null)
+            {
+                Console.WriteLine("Queue is empty");
+            }
+            else
+            {
+                Console.WriteLine("The Deque element is : " + head.data);
+                head = head.next;
+
             }
         }
     }

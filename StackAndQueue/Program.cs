@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,13 +11,14 @@ namespace StackAndQueue
     {
         static void Main(string[] args)
         {
-            //UC3
-            Console.WriteLine("Hello Queue using linked List!");
-            CreateQueue Queue = new CreateQueue();
-            Queue.Enqueue(56);
-            Queue.Enqueue(30);
-            Queue.Enqueue(70);
-            Queue.Display();// this.top=this.top.next
+            //UC4
+            Console.WriteLine("Hello Queue using Linked List!");
+            Dequeue DQueue = new Dequeue();
+            DQueue.Enqueue(56);
+            DQueue.Enqueue(30);
+            DQueue.Enqueue(70);
+            DQueue.Dequeu();
+            DQueue.Display();// this.top=this.top.next
             Console.ReadKey();
         }
     }
