@@ -35,6 +35,7 @@ namespace StackAndQueue
                 Console.WriteLine("Queue is empty");
                 return;
             }
+            
             while (temp != null)
             {
                 Console.Write(temp.data + " ");
