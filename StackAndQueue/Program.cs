@@ -10,17 +10,13 @@ namespace StackAndQueue
     {
         static void Main(string[] args)
         {
-            //UC2
-            Console.WriteLine("Hello Stack using Linked List!");
-            PeakPop Stack = new PeakPop();
-            Stack.Push(70);
-            Stack.Push(30);
-            Stack.Push(56);
-            Stack.Display();
-            Stack.Peek();
-            Stack.Pop();
-            Stack.IsEmpty();
-            Stack.Display();
+            //UC3
+            Console.WriteLine("Hello Queue using linked List!");
+            CreateQueue Queue = new CreateQueue();
+            Queue.Enqueue(56);
+            Queue.Enqueue(30);
+            Queue.Enqueue(70);
+            Queue.Display();// this.top=this.top.next
             Console.ReadKey();
         }
     }
