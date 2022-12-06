@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 
 namespace StackAndQueue
 {
-
     class Node
     {
         public int data;
