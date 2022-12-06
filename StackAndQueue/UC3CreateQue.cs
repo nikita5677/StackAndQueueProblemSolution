@@ -9,7 +9,7 @@ namespace StackAndQueue
     class CreateQueue
     {
         Node head = null;
-
+        
         internal void Enqueue(int data)
         {
             Node node = new Node(data);
@@ -24,12 +24,9 @@ namespace StackAndQueue
                 }
                 temp.next = node;
                 //node.next = head;
-
             }
             Console.WriteLine("{0} inserted into queue ", node.data);
-
         }
-
         internal void Display()
         {
             Node temp = this.head;
@@ -37,7 +34,6 @@ namespace StackAndQueue
             {
                 Console.WriteLine("Queue is empty");
                 return;
-
             }
             while (temp != null)
             {
